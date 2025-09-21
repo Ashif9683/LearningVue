@@ -2,18 +2,19 @@
   <div id="app">
     <h1>Hello Vue 3!</h1>
   </div>
-  <Home/>
+
+  <Interpolation></Interpolation>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import Interpolation from './components/Interpolation.vue'
 
 export default {
 
   name: 'App',
 
   components: {
-       Home,
+       Interpolation,
   }
 }
 
