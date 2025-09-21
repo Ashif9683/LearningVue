@@ -1,0 +1,6 @@
+@import './base.css';
+
+:root{
+    --primary-color: #42b883;
+    --secondary-color: #35495e;
+}
