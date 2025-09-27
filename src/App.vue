@@ -2,18 +2,18 @@
   <div id="app">
     <h1>Hello Vue 3!</h1>
   </div>
-  <Home/>
+  <Events/>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import Events from './components/Events.vue'
 
 export default {
 
   name: 'App',
 
   components: {
-       Home,
+       Events,
   }
 }
 
