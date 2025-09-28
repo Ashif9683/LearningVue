@@ -2,18 +2,18 @@
   <div id="app">
     <h1>Hello Vue 3!</h1>
   </div>
-  <Home/>
+  <Methods/>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import Methods from './components/Methods.vue'
 
 export default {
 
   name: 'App',
 
   components: {
-       Home,
+       Methods,
   }
 }
 
