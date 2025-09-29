@@ -2,18 +2,24 @@
   <div id="app">
     <h1>Hello Vue 3!</h1>
   </div>
-  <Home/>
+  <TwoWayBinding/>
+  <TwoInputs/>
+  <CheckBoxRadio/>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import TwoInputs from './components/TwoInputs.vue';
+import TwoWayBinding from './components/TwoWayBinding.vue'
+import CheckBoxRadio from './components/CheckBoxRadio.vue'
 
 export default {
 
   name: 'App',
 
   components: {
-       Home,
+       TwoWayBinding,
+       TwoInputs,
+       CheckBoxRadio,
   }
 }
 
