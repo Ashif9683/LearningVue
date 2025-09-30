@@ -2,18 +2,18 @@
   <div id="app">
     <h1>Hello Vue 3!</h1>
   </div>
-  <Home/>
+  <Conditional/>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import Conditional from './components/Conditional.vue'
 
 export default {
 
   name: 'App',
 
   components: {
-       Home,
+       Conditional,
   }
 }
 
