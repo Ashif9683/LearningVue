@@ -2,18 +2,18 @@
   <div id="app">
     <h1>Hello Vue 3!</h1>
   </div>
-  <Home/>
+  <Loop/>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import Loop from './components/Loop.vue'
 
 export default {
 
   name: 'App',
 
   components: {
-       Home,
+       Loop,
   }
 }
 
