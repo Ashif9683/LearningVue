@@ -2,18 +2,18 @@
   <div id="app">
     <h1>Hello Vue 3!</h1>
   </div>
-  <Home/>
+  <Parent/>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import Parent from './components/Parent.vue'
 
 export default {
 
   name: 'App',
 
   components: {
-       Home,
+       Parent,
   }
 }
 
