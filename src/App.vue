@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <h1>Hello Vue 3!</h1>
-    <Home />
+    <ClassBinding />
   </div>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import ClassBinding from './components/ClassBinding.vue'
 
 export default {
   name: 'App',
   components: {
-    Home
+    ClassBinding
   }
 }
 </script>
