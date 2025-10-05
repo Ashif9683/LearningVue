@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <h1>Hello Vue 3!</h1>
-    <Home />
+    <HTMLbinding />
   </div>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import HTMLbinding from './components/HTMLbinding.vue'
 
 export default {
   name: 'App',
   components: {
-    Home
+    HTMLbinding
   }
 }
 </script>
