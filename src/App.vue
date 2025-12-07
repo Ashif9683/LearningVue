@@ -1,7 +1,12 @@
 <template>
-  <div id="app">
-    <h1>Hello Vue 3!</h1>
+  <div id="app" class="min-h-screen bg-gradient-to-b from-gray-50 to-gray-200 flex flex-col items-center p-10 font-sans">
+
+    <h1 class="text-5xl font-extrabold text-green-600 tracking-tight mb-10 drop-shadow-sm">
+      Hello Vue 3!
+    </h1>
+
     <Home />
+
   </div>
 </template>
 
@@ -10,23 +15,10 @@ import Home from './components/Home.vue'
 
 export default {
   name: 'App',
-  components: {
-    Home
-  }
+  components: { Home }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  text-align: center;
-  background: #f5f6fa;
-  min-height: 100vh;
-  padding: 40px;
-}
-
-h1 {
-  color: #42b983;
-  margin-bottom: 24px;
-}
+/* All styling handled by Tailwind */
 </style>
