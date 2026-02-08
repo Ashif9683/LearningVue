@@ -15,11 +15,22 @@
     </div>
 
   </div>
+
+  <Teleport to="#footer">
+    <Footer />
+  </Teleport>
+
 </template>
 
 <script>
+import Footer from './Footer.vue';
+
 export default {
-  name: "Home"
+  name: "Home",
+
+  components: {
+    Footer,
+  }
 }
 </script>
 
