@@ -11,8 +11,11 @@
         <router-link to="/login" class="text-lg text-gray-700 hover:text-green-600 transition-colors duration-100 mb-4">
           Login
         </router-link>  
-        <router-link to="/profile" class="text-lg text-gray-700 hover:text-green-600 transition-colors duration-100 mb-4">
-          Profile
+        <router-link to="/profile/1" class="text-lg text-gray-700 hover:text-green-600 transition-colors duration-100 mb-4">
+         1'st Profile
+        </router-link>  
+        <router-link to="/profile/2" class="text-lg text-gray-700 hover:text-green-600 transition-colors duration-100 mb-4">
+          2'nd Profile
         </router-link>  
     </div>
     <router-view class="w-full max-w-4xl bg-white rounded-lg shadow-lg p-6" />

@@ -4,7 +4,7 @@
     <div class="bg-white shadow-xl rounded-2xl p-10 max-w-xl w-full border border-gray-100">
       
       <h2 class="text-3xl font-semibold text-gray-800 mb-4">
-        Welcome to the Profile Page
+        Welcome to the {{ profile}} Profile Page
       </h2>
 
       <p class="text-gray-600 text-lg leading-relaxed">
@@ -19,7 +19,18 @@
 
 <script>
 export default {
-  name: "Profile"
+  name: "Profile",
+
+  data() {
+    return {
+      profile: ''
+    };
+  },
+
+  mounted(){
+    console.log("Profile ID:", this.$route.params.name);
+    this.profile = this.$route.params.name;
+  }
 }
 </script>
 
